@@ -1,0 +1,82 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.IncomeEx{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 30px;
+  border-radius:20px;
+}
+.history-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  max-width: 300px;
+}
+.expense{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow:0 0 10px rgba(0,0,0,0.3);
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.pos{
+  border-right: 3px solid green;
+
+}
+.neg{
+  border-right: 3px solid red;
+}
+
+.expense-card-container{
+  width:100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.add-expense-container{
+  max-width: 300px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.add-expense-container h3{
+  margin-top: 0;
+}
+.add-expense-container input{
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.add-expense-container button{
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.add-expense-container button:hover{
+  background-color: #27ae60;
+}
